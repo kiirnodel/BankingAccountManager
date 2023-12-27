@@ -1,0 +1,55 @@
+# Propriedades Spring
+spring:
+  application:
+    name: "@project.name@"
+    groupId: "@project.groupId@"
+    version: "@project.version@"
+    java.version: "@java.version@"
+  main:
+    banner-mode: console
+    allow-bean-definition-overriding: true
+  output:
+    ansi:
+      enabled: ALWAYS
+  threads:
+    virtual:
+      enabled: true
+  thread-executor: virtual
+  datasource:
+    url: jdbc:h2:file:./src/main/resources/database/demodb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+    poolName: AMPool
+    min-pool-size: 1
+    max-pool-size: 100
+    max-lifetime: 1800000
+    validation-timeout: 250
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: true
+  h2:
+    console:
+      enabled: true
+  sql:
+    init:
+      mode: always
+
+server:
+  port: 8080
+  servlet:
+    context-path: /account-manager
+
+client-service:
+  host: localhost:8090/client-manager
+  get-info: ${client-service.host}/v1/client
+
+bacen-service:
+  host: localhost:8070/bacen
+  notify-transfer: ${bacen-service.host}/v5/notify

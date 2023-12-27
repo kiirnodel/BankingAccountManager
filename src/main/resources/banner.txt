@@ -1,0 +1,9 @@
+${AnsiColor.BLUE} __  _   _  __     _                             _     __  __
+${AnsiColor.BLUE} \ \| |_| |/ /    / \   ___ ___ ___  _   _ _ __ | |_  |  \/  | __ _ _ __   __ _  __ _  ___ _ __
+${AnsiColor.BLUE}  \ \ |__ / /    / _ \ / __/ __/ _ \| | | | '_ \| __| | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|
+${AnsiColor.BLUE}  / /_|_| \ \   / ___ \ (_| (_| (_) | |_| | | | | |_  | |  | | (_| | | | | (_| | (_| |  __/ |
+${AnsiColor.BLUE} /_/(_)__/ \_\ /_/   \_\___\___\___/ \__,_|_| |_|\__| |_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|   ${AnsiColor.BRIGHT_BLUE} v${spring.application.version}
+${AnsiColor.BLUE}                                                                                |___/
+${AnsiColor.RED} Using Java ${java.version}
+${AnsiColor.GREEN} Powered by Spring Framework ${spring-boot.version}
+${AnsiColor.DEFAULT}

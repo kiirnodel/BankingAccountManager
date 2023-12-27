@@ -1,0 +1,16 @@
+
+\
+java:S1128":Remove this unused import 'jakarta.persistence.FetchType'.(ŠÂ¤Šûÿÿÿÿ8šÚÍ½Ê1
+X
+java:S1128
+"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8Ù‚§¾Ê1
+H
+java:S1128"+Remove this unused import 'lombok.Builder'.(§’Ğß8Ú‚§¾Ê1
+J
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8›ÚÍ½Ê1
+R
+java:S1128"5Remove this unused import 'lombok.NoArgsConstructor'.(¸¨›8Û‚§¾Ê1
+]
+java:S1128";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØúøÿÿÿÿ8›ÚÍ½Ê1
+^
+java:S1128"<Remove this unused import 'org.hibernate.annotations.Fetch'.(”” ìşÿÿÿÿ8›ÚÍ½Ê1
