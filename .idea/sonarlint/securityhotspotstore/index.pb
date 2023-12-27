@@ -114,3 +114,7 @@ a
 1src/main/java/com/banking/enuns/BusinessType.java,9\7\975a80c8716ce3387bd95502394a2ba829dca4cd
 `
 0src/main/java/com/banking/enuns/MessageType.java,f\d\fda4778a86b25c191bb170d4a90044d6dc6e892d
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+V
+&src/test/java/com/banking/AppTest.java,a\2\a2734e5d62084a0bd010575dff7a66af7df66869
